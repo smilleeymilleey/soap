@@ -5,13 +5,14 @@ function Header() {
     return (
         <div className="header">
         <a href="#default" class="logo">SOAP</a>
-        <div className="header-left">
-          <a className="active" href="#stories">Stories</a>
-          <a href="#stories">Charity Pot</a>
-         
-         
-        </div>
-        <input className="search" type="text" placeholder="Search"></input>
+        
+         <a href="#charity">Charity Pot</a>
+          <a href="#stories">Stories</a>
+          <div className="search__center">
+          <input className="search__center" type="text" placeholder="Search"></input>
+          </div>
+          <a href="#stories">Login</a>
+        
       </div>
 
 
