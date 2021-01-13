@@ -4,6 +4,7 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import SearchIcon from '@material-ui/icons/Search';
 
+
 function Header() {
     return (
         <div className="header">
@@ -72,8 +73,12 @@ function Header() {
             <div>
                 
             </div>
-        </div> 
-         
+            
+            
+           </div>
+             
+      
+       
 
         
     );
