@@ -1,53 +1,70 @@
-/* Style the header with a grey background and some padding */
 .header {
-    overflow: hidden;
-    background-color:black;
-    padding: 20px 10px;
-  }
-  
-  /* Style the header links */
-  .header a {
-    float: left;
-    color: white;
-    padding: 12px;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-  }
-  
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: none;
-
-  }
-  
-  .search {
-    overflow: hidden;
-    background-color:black;
-    padding: 20px 10px;
-    color: white;
+    height: 60px;
     display: flex;
-  }
-  
-.search__center {
-    float: none;
     align-items: center;
-    top: 50%;
-    left: 50%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+
+}
+.header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    background-color: black;
+}
+
+.header_searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+
+.header_searchIcon {
+    padding: 5px;
+    height: 22px !important;
  
 }
-  
 
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
+.header_nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__L {
+    color: white;
+}
+
+.header__optionLush {
+    font-size: 35px;
+    font-weight: 800px;
+}
+
+
+.header__optionLineTwo {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.header_option {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+
+}
+
