@@ -21,20 +21,24 @@
     align-items: center;
     border-radius: 24px;
     background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+  
 }
 
 .header_searchInput {
     height: 12px;
     padding: 10px;
-    border: none;
+    border: 1px solid white;
     width: 100%;
+    background-color: black;
+    color: white;
 }
 
+.icon {
+    color: white;
+    font-weight: bold;
 
-.header_searchIcon {
-    padding: 5px;
-    height: 22px !important;
- 
 }
 
 .header_nav {

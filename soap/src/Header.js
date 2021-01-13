@@ -16,7 +16,7 @@ function Header() {
 
             <div className="header_nav">
                 <div className="header_option">
-                <span className="header__optionLineTwo">Stories</span>
+                <span className="header__optionLineTwo">Blog</span>
                 </div>
                 
             </div>
@@ -28,26 +28,22 @@ function Header() {
                 
             </div>
 
-            
 
             <div className="header__search">
-                <SearchIcon>
+                 <SearchIcon className="icon">
                 </SearchIcon>
                 <input
                 className="header_searchInput" 
                 type="text"
                 
-                
                 />
-              
-          
                 
             </div>
             
             <div className="header_nav">
                 <div className="header_option">
                 <span className="header__optionLineTwo">
-                    <PersonOutlineIcon>
+                    <PersonOutlineIcon className="icon">
 
                     </PersonOutlineIcon>
                      Log In
@@ -66,16 +62,20 @@ function Header() {
             <div className="header_nav">
                 <div className="header_option">
                 <span className="header__optionLineTwo">
-                    <ShoppingBasketIcon>
+                    <ShoppingBasketIcon className="icon">
                     
                     </ShoppingBasketIcon>
                 </span>
                 </div>
-
             </div> 
+
+            <div>
+                
+            </div>
+        </div> 
          
-           
-        </div>
+
+        
     );
 }
 
