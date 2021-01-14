@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.lip__image {
+    width:auto;
+    height: 700px;
+    object-fit: cover;
+    display: inline-block;
+    position: relative;
+}
