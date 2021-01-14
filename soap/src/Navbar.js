@@ -5,10 +5,7 @@ import "./Navbar.css";
 
 function Navbar() {
     return (
-    <div class="topnav" id="myTopnav">
-
-    
-        
+    <div class="topnav" id="myTopnav"> 
     <div class="dropdown">
         <button class="dropbtn">Face
             <i class="fa fa-caret-down"></i>
@@ -21,8 +18,6 @@ function Navbar() {
         </div>
     
     </div>      
-
-
 
 
     <div class="dropdown">
@@ -39,10 +34,8 @@ function Navbar() {
     </div>      
 
 
-
-
         <div class="dropdown">
-          <button class="dropbtn">Dropdown
+          <button class="dropbtn">More
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
@@ -56,7 +49,7 @@ function Navbar() {
       
       </div>
       </div>
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;

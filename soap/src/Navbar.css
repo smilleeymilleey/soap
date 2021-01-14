@@ -4,6 +4,7 @@
     border-top: 2px solid white;
     overflow: hidden;
     display: flex;
+    flex-direction: row;
 }
   
   /* Style the links inside the navigation bar */
@@ -26,11 +27,15 @@
   
   /* Dropdown container - needed to position the dropdown content */
   .dropdown {
-    float: left;
+    
     overflow: hidden;
+    text-align: center;
+   
   }
+
+
   .dropdown2 {
-    float: left;
+    
     overflow: hidden;
   }
 
@@ -55,6 +60,7 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    
   }
   
   /* Style the dropdown content (hidden by default) */
