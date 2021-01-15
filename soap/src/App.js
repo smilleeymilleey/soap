@@ -2,7 +2,7 @@
 import './App.css';
 import Header from './Header';
 import Navbar from './Navbar.js';
-import Home from './Home.js';
+import ImageSlider from './ImageSlider.js';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
      <div className="App">
       <Header />
       <Navbar />
-      <Home />
+      <ImageSlider />
         
       </div>
     
