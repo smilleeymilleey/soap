@@ -35,7 +35,7 @@ function Product() {
             <div className="grid-product">
                 <h1>Peppermint Lotion </h1>
                 <h2 className="rating">*****</h2>
-                <img className="soap" src="https://cdn.pixabay.com/photo/2018/05/02/16/34/plant-3368992_960_720.jpg" alt="lotion"></img> 
+                <img className="soap" id="lotion" src="https://cdn.pixabay.com/photo/2018/05/02/16/34/plant-3368992_960_720.jpg" alt="lotion"></img> 
             </div>
       
       
