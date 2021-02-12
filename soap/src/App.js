@@ -5,6 +5,7 @@ import Navbar from './Navbar.js';
 import React from 'react';
 import Slider from './Slider.js';
 import Product from './Product.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 
       <Slider />
      <Product />
+     <Footer />
         
       </div>
     
