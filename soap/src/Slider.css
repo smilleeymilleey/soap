@@ -3,3 +3,7 @@
     height: 500px;
     object-fit: cover
   }
+
+  .alice-carousel__prev-btn {
+    text-align: center !important;
+}
