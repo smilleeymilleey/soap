@@ -8,30 +8,35 @@ function Product() {
             <div className="grid-product">
                 <h1>Lavender Soap</h1>
                 <h2 className="rating">****</h2>
-                <img className="lavender__Soap" src="https://cdn.pixabay.com/photo/2016/02/22/09/17/soap-1215027_960_720.jpg" alt="lavender soap"></img>
+                <img className="soap" src="https://cdn.pixabay.com/photo/2017/09/07/19/43/soap-2726387_960_720.jpg" alt="lavender soap"></img>
             </div>
-            <div className="grid-product2"> 
+            <div className="grid-product"> 
                  <h1>Eucalyptus Soap</h1>
+                 <h2 className="rating">*****</h2>
+                 <img className="soap" src="https://cdn.pixabay.com/photo/2017/09/07/19/46/soap-2726394_960_720.jpg" alt="eucalyptus soap">  
+                 </img>
             </div>
-            <div className="grid-product3">
+            <div className="grid-product">
                  <h1>PepperMint Soap </h1>
+                 <h2 className="rating">*****</h2>
+                 <img className="soap" src="https://cdn.pixabay.com/photo/2017/09/07/19/38/soap-2726371_960_720.jpg" alt="peppermint soap"></img>
             </div>
-            <div className="grid-product4">
+            <div className="grid-product">
                  <h1>Lavender Lotion </h1>   
             </div>
-            <div className="grid-product5"> 
+            <div className="grid-product"> 
              <h1>Eculayptus Lotion</h1>
              </div>
-            <div className="grid-products6">
+            <div className="grid-product">
                 <h1>Peppermint Lotion </h1> 
             </div>
-            <div className="grid-products7"> 
+            <div className="grid-product"> 
                 <h1>Lavender Chaptstick </h1>
             </div>
-            <div className="grid-product8"> 
+            <div className="grid-product"> 
                 <h1>Eucalyptus Chapstick </h1>
             </div>
-            <div className="grid-product9"> 
+            <div className="grid-product"> 
                 <h1> Peppermint Chapstick </h1>
              </div>
         
