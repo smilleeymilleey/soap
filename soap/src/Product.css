@@ -9,7 +9,13 @@
     
 }
 
-
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 38%;
+  padding-top: 10%;
+  font-size: medium;
+}
 
 .grid-product {
     text-align: center;
@@ -32,6 +38,8 @@
   background-color: white;
   color: black;
 }
+
+
 
 .soap {
     width: 50%;

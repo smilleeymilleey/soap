@@ -4,7 +4,7 @@ import Header from './Header';
 import Navbar from './Navbar.js';
 import React from 'react';
 import Slider from './Slider.js';
-import Product from './Product.js';
+import Home from './Home.js';
 import Footer from './Footer.js';
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
      <div className="App">
       <Header />
       <Navbar />
-
+      
       <Slider />
-     <Product />
+     <Home />
      <Footer />
         
       </div>
