@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Product.css";
+
 import StarIcon from '@material-ui/icons/Star';
 
 
@@ -22,7 +22,7 @@ function Product({id, title, image, price, rating }) {
               </div>
          </div>
 
-         <img src={image} alt=""/>
+         <img className="image" src={image} alt=""/>
 
         </div>
     )

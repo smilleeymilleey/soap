@@ -15,8 +15,8 @@ function App() {
       <Navbar />
       
       <Slider />
-     <Home />
-     <Footer />
+      <Home />
+      <Footer />
         
       </div>
     
