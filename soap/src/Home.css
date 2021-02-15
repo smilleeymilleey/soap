@@ -1,18 +1,24 @@
-.home__container {
+.home__row {
     display: flex;
     flex-direction: row;
-    width: 33.33%;
-    text-align: center;;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-left: 35%;
-    padding-right: 30%;
-    
+
+    text-align: center;
+  
+    margin: auto;
     
 }
 
 .image {
-  width: 100px;
+
   height: auto;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  width: 40%;
 }
 
+.add__To_Cart {
+    background-color: black;
+    color: white;
+}
