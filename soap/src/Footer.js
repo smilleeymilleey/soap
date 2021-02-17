@@ -17,15 +17,15 @@ function Footer() {
             <div className="column">
                 <div className="Contact">
                     <h1>Contact</h1>
-                    <p> <EmailIcon /> halogoddessforever@gmail.com</p>
+                    <p> <EmailIcon /> email@gmail.com</p>
                     <p> <PhoneIcon /> (555)555-5555</p>
                 </div>
             </div>
           <div className="column">
             <div className="Contact">
                 <h1>About</h1>
-                <p>Charity</p>
-                <p>Blog</p>
+                <p>Charities We Support</p>
+               
                 <p>Our Story</p>
             </div>
         </div>

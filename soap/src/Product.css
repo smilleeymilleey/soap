@@ -1,7 +1,9 @@
 .add__to__cart__button {
     color: white;
     background-color: black;
-    width: 40%;
+    width: 80%;
+    height: auto;
+    cursor: pointer;
 }
 
 .add__to__cart__button:hover {
@@ -20,10 +22,12 @@
 
 .image:hover {
     opacity: 0.3;
+    cursor: pointer;
 }
 
 
 .title {
     font-size: 20px;
     font-weight: bold;
+   
 }
