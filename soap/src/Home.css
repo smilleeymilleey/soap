@@ -1,10 +1,9 @@
 .home__row {
     display: flex;
     flex-direction: row;
-
     text-align: center;
-  
-    margin: auto;
+    margin: 20 35px;
+ 
     
 }
 
@@ -18,7 +17,3 @@
   width: 40%;
 }
 
-.add__To_Cart {
-    background-color: black;
-    color: white;
-}

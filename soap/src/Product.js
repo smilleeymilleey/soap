@@ -1,4 +1,5 @@
 import React from 'react';
+import './Product.css';
 
 import StarIcon from '@material-ui/icons/Star';
 
@@ -9,10 +10,7 @@ function Product({id, title, image, price, rating }) {
       <div className="product">
           <div className="product__info">
               <p>{title}</p>
-              <p className="product__price">
-                  <small>$</small>
-                  <strong>{price}</strong>
-              </p>
+
               <div className="product__rating">
                   {Array(rating)
                     .fill()
@@ -20,10 +18,19 @@ function Product({id, title, image, price, rating }) {
                     <StarIcon />
                     ))}
               </div>
+           
+              
+             
          </div>
 
          <img className="image" src={image} alt=""/>
-
+        
+           
+              <p className="product__price">
+                  <small>$</small>
+                  <strong>{price}</strong>
+              </p>
+        <button className="add__to__cart__button">ADD TO CART</button>
         </div>
     )
 }
