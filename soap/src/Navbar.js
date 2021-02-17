@@ -4,10 +4,11 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div>
-      <div id="header">
+      <div className="navbar__Container" id="header">
         <ul>
         <div class="dropdown">
-        <li><a class="active" href="index.html">Face</a>
+        <li>
+          <a className="active" href="index.html">Face</a>
         </li>
         <div class="dropdown-content">
             <a href="#">Link 1</a>
@@ -17,7 +18,8 @@ function Navbar() {
         </div>
 
         <div class="dropdown">
-          <li class="dropbtn"><a href="product.html">Body</a>
+          <li class="dropbtn">
+            <a href="product.html" className="active">Body</a>
           </li>
           <div class="dropdown-content">
             <a href="#">Link 1</a>
@@ -28,7 +30,7 @@ function Navbar() {
         
 
     <div class="dropdown">
-    <li><a href="order.ph#">Hair</a>
+    <li><a href="order.ph#" className="active">Hair</a>
     </li>
     <div class="dropdown-content">
         <a href="#">Link 1</a>
