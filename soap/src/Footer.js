@@ -17,8 +17,8 @@ function Footer() {
             <div className="column">
                 <div className="Contact">
                     <h1>Contact</h1>
-                    <p> <EmailIcon /> email@gmail.com</p>
-                    <p> <PhoneIcon /> (555)555-5555</p>
+                   <p><a href="mailto:halogoddessforever@gmail.com">Email Us </a>  <EmailIcon /> </p>
+                    <p> (555)555-5555 <PhoneIcon /> </p>
                 </div>
             </div>
           <div className="column">
@@ -32,9 +32,13 @@ function Footer() {
         <div className="column">
             <div className="Contact">
                 <h1>Social Media</h1>
-                <p><InstagramIcon /> Instagram</p>
-                <p> <FacebookIcon /> Facebook</p>
-                <p> <TwitterIcon /> Twitter</p>
+                <p><a href="https://www.instagram.com/">Instagram</a> <InstagramIcon /> </p>
+
+                <p><a href="https://www.facebook.com/">Facebook</a> <FacebookIcon /> </p>
+
+                <p><a href="https://twitter.com/">Twitter</a> <TwitterIcon /> </p>
+
+
             </div>
         </div>
              
