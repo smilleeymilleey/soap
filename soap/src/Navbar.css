@@ -8,14 +8,14 @@
   position: relative;
   display: inline-block;
   z-index: 999;
-  color: white;
+
 }
 
 .active {
   color: white;
   padding: 40px;
-  font-size: 25px;
- 
+  font-size: 20px;
+
 
 }
 
@@ -24,22 +24,24 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #565656;
+  background-color: black;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1000; /* One more than the header. */
 }
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: white;
+ 
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  color: white;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
+  color: black;
 }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -53,10 +55,10 @@
   /* overflow: hidden; Remove this. */
   text-align: center;
   vertical-align: middle;
-  color: white;
+ 
 }
 
 .navbar__Container {
   background-color: black;
-  color: white;
+  
 }

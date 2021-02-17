@@ -4,3 +4,26 @@
     width: 40%;
 }
 
+.add__to__cart__button:hover {
+    background-color: white;
+    color: black;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 500%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image:hover {
+    opacity: 0.3;
+}
+
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
+import PermIdentityIcon from '@material-ui/icons/PermIdentity';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 
 
@@ -21,7 +22,7 @@ function Header() {
           <div className="header_nav">
               
               <div className="header_option">
-              <span className="header__blog">Blog</span>
+              <span className="header__blog">About Us</span>
              
               </div>
              
@@ -51,7 +52,7 @@ function Header() {
             <div className="header_nav">
                 <div className="header_option">
                 
-                <span className="header__optionLineTwo">Login</span>
+                <span className="header__optionLineTwo"> <PermIdentityIcon /> Login  |</span>
                 </div>
 
             </div>
