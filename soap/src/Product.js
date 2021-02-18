@@ -35,7 +35,7 @@ function Product({id, title, image, price, rating }) {
                   <strong>{price}</strong>
                 
               </p>
-              <button>Test 2</button>
+              <button className="cart__Button">Add To Cart</button>
         </div>
     )
 }
