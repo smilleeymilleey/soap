@@ -33,8 +33,9 @@ function Product({id, title, image, price, rating }) {
               <p className="product__price">
                   <small>$</small>
                   <strong>{price}</strong>
+                
               </p>
-        <button className="add__to__cart__button">ADD TO CART</button>
+              <button>Test 2</button>
         </div>
     )
 }

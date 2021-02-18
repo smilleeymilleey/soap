@@ -17,7 +17,7 @@ function Footer() {
             <div className="column">
                 <div className="Contact">
                     <h1>Contact</h1>
-                   <p><a href="mailto:halogoddessforever@gmail.com">Email Us </a>  <EmailIcon /> </p>
+                   <p><a href="mailto:halogoddessforever@gmail.com?subject=Mail From Soap">Email Us </a>  <EmailIcon /> </p>
                     <p> (555)555-5555 <PhoneIcon /> </p>
                 </div>
             </div>

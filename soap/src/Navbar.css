@@ -16,13 +16,13 @@
   padding: 40px;
   font-size: 20px;
 
-
 }
 
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
+ 
   position: absolute;
   background-color: black;
   min-width: 160px;

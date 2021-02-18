@@ -1,33 +1,23 @@
-.add__to__cart__button {
-    color: white;
-    background-color: black;
-    width: 80%;
-    height: auto;
-    cursor: pointer;
-}
 
-.add__to__cart__button:hover {
-    background-color: white;
-    color: black;
-}
 
-.image {
-    opacity: 1;
-    display: block;
-    width: 500%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
+
 
 .image:hover {
     opacity: 0.3;
     cursor: pointer;
 }
 
-
-.title {
-    font-size: 20px;
-    font-weight: bold;
-   
+.image {
+    opacity: 1;
+    width: 50%;
+    height: 200%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
+
+
