@@ -1,27 +1,31 @@
-
 import './App.css';
-import Header from './Header';
-import Navbar from './Navbar.js';
 import React from 'react';
-import Slider from './Slider.js';
 import Home from './Home.js';
-import Footer from './Footer.js';
-import Update from './Update.js';
+import About from './About.js';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+
 
 function App() {
   return (
-   
+    <BrowserRouter>
      <div className="App">
-      <Header />
-      <Navbar />
-      <Update />
-      <Slider />
-     
+   
       <Home />
-      <Footer />
-        
-      </div>
     
+      <Switch>
+     
+       <Route path="\Users\Caitlyn Miley\soap\soap\soap\src\About.js" exact component={About}>
+
+       </Route>
+
+       <Route path="\Users\Caitlyn Miley\soap\soap\soap\src\Home.js" exact component={Home}>
+
+      </Route>
+
+
+      </Switch>
+      </div>
+    </BrowserRouter>
 
   );
 }

@@ -5,6 +5,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter'; 
+import { Link } from "react-router-dom"; 
 
 
 function Footer() {
@@ -24,9 +25,12 @@ function Footer() {
           <div className="column">
             <div className="Contact">
                 <h1>About</h1>
+
+                <Link to="\Users\Caitlyn Miley\soap\soap\soap\src\About.js" className="btn btn-primary">About Us</Link>
+
                 <p>Charities We Support</p>
                
-                <p>Our Story</p>
+                
             </div>
         </div>
         <div className="column">

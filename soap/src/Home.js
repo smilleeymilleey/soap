@@ -2,7 +2,11 @@
 import React from 'react';
 import Product from "./Product";
 import './Home.css';
-
+import Header from './Header.js';
+import Navbar from "./Navbar.js";
+import Update from './Update.js';
+import Slider from './Slider';
+import Footer from './Footer';
 
 function Home() {
     return (
@@ -10,6 +14,11 @@ function Home() {
 
         <div className="home">
             <div className="home__container">
+
+        <Header />
+        <Navbar/>
+        <Update />
+        <Slider />
                 
         <div className="home__row">
             
@@ -83,6 +92,10 @@ function Home() {
             
         
            </div>
+
+           <Footer />
+        
+
          </div>
       </div>
        

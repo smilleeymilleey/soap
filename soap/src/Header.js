@@ -19,22 +19,7 @@ function Header() {
               </div>
              
           </div>
-          <div className="header_nav">
-              
-              <div className="header_option">
-              <span className="header__blog">About Us</span>
-             
-              </div>
-             
-          </div>
-          <div className="header_nav">
-              
-              <div className="header_option">
-              <span className="header__blog">Donate</span>
-             
-              </div>
-             
-          </div>
+       
             
             
             
