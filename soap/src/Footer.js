@@ -26,7 +26,7 @@ function Footer() {
             <div className="Contact">
                 <h1>About</h1>
 
-                <Link to="\Users\Caitlyn Miley\soap\soap\soap\src\About.js" className="btn btn-primary">About Us</Link>
+                <Link to="/about" className="btn btn-primary">About Us</Link>
 
                 <p>Charities We Support</p>
                
