@@ -3,6 +3,7 @@ import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
 import PermIdentityIcon from '@material-ui/icons/PermIdentity';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import { Link } from "react-router-dom"; 
 
 
 
@@ -46,9 +47,13 @@ function Header() {
               
                 <span className="header__optionLineTwo"></span>
                 
-
+                
+                <Link to="/cart" className="btn btn-primary">
+                    
                 <ShoppingBasketIcon />
-               
+
+                </Link>
+              
               </div>
               </div>
            

@@ -6,6 +6,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Header from './Header.js';
 import Navbar from "./Navbar.js";
 import Footer from './Footer';
+import Cart from './Cart';
 
 
 function App() {
@@ -19,14 +20,14 @@ function App() {
 
      
        <Route path="/about" exact component={About}>
-      
        </Route>
 
       <Route path="/home" exact component={Home}>
-
-     
-        
       </Route>
+
+      <Route path="/cart" exact component={Cart}>
+      </Route>
+    
        <Footer />
      
       </div>
