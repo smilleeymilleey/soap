@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React { useState } from 'react';
 import Home from './Home.js';
 import About from './About.js';
 import { BrowserRouter, Route } from "react-router-dom";
@@ -12,6 +12,13 @@ import Login from './Login.js';
 
 
 function App() {
+  const adminUser = {
+    email: "admin@admin.com"
+    password: "admin123"
+  }
+
+
+
   return (
     <BrowserRouter>
      <div className="App">
