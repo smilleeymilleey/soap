@@ -15,7 +15,7 @@ function Header() {
            <div className="header_nav">
               
               <div className="header_option">
-              <span className="header__soap">SOAP</span>
+              <Link to="/home"className="header__soap">SOAP</Link>
              
               </div>
              
@@ -38,7 +38,7 @@ function Header() {
             <div className="header_nav">
                 <div className="header_option">
                 
-                <span className="header__optionLineTwo"> <PermIdentityIcon /> Login  |</span>
+                <Link to="/login" className="header__optionLineTwo"> <PermIdentityIcon /> Login  |</Link>
                 </div>
 
             </div>

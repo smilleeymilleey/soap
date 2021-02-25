@@ -8,6 +8,7 @@ import Navbar from "./Navbar.js";
 import Footer from './Footer';
 import Cart from './Cart';
 import Charity from './Charity.js';
+import Login from './Login.js';
 
 
 function App() {
@@ -18,20 +19,22 @@ function App() {
       <Navbar/>
         
     
-
+      <Route path="/home" exact component={Home}>
+      </Route>
      
        <Route path="/about" exact component={About}>
        </Route>
 
-      <Route path="/home" exact component={Home}>
-      </Route>
-
+      
       <Route path="/cart" exact component={Cart}>
       </Route>
 
 
       <Route path="/charity" exact component={Charity}>
       </Route>
+
+      <Route path="/login" exact component={Login}>
+       </Route>
 
        <Footer />
      
