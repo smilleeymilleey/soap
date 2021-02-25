@@ -7,7 +7,7 @@ import './About.css';
 
 function About() {
     return (
-        <div>
+        <div className="about__Container">
           <h1 className="title">This is the About Page</h1>
             <h2> ABOUT US TEST</h2>
             
