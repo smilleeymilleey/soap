@@ -9,7 +9,6 @@ function Product({id, title, image, price, rating }) {
 
 
 
-
     return (
       <div className="product">
           <div className="product__info">
@@ -35,7 +34,7 @@ function Product({id, title, image, price, rating }) {
                   <strong>{price}</strong>
                 
               </p>
-              <button className="cart__Button">Add To Cart</button>
+              <button  className="cart__Button">Add To Cart</button>
         </div>
     )
 }

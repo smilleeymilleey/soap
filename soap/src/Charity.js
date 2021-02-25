@@ -3,8 +3,8 @@ import "./Charity.css";
 
 function Charity() {
     return (
-        <div>
-            <h1>Donate HERE</h1>
+        <div className="charity__Container">
+            <h1>Charity Test!!</h1>
         </div>
     )
 }

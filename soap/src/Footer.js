@@ -27,8 +27,8 @@ function Footer() {
                 <h1>About</h1>
 
                 <Link to="/about" className="btn btn-primary">About Us</Link>
-
-                <p>Charities We Support</p>
+                    <br></br>
+                <Link to="/charity">Charities We Support</Link>
                
                 
             </div>

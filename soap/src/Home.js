@@ -8,6 +8,7 @@ import Slider from './Slider';
 
 
 function Home() {
+    
     return (
         
 

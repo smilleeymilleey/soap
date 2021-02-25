@@ -7,6 +7,7 @@ import Header from './Header.js';
 import Navbar from "./Navbar.js";
 import Footer from './Footer';
 import Cart from './Cart';
+import Charity from './Charity.js';
 
 
 function App() {
@@ -27,7 +28,11 @@ function App() {
 
       <Route path="/cart" exact component={Cart}>
       </Route>
-    
+
+
+      <Route path="/charity" exact component={Charity}>
+      </Route>
+
        <Footer />
      
       </div>
