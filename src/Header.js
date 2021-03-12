@@ -1,8 +1,6 @@
 import React from 'react';
 import './Header.css';
-import SearchIcon from '@material-ui/icons/Search';
-import PermIdentityIcon from '@material-ui/icons/PermIdentity';
-import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+
 import { Link } from "react-router-dom"; 
 
 
@@ -29,8 +27,7 @@ function Header() {
                 <input
                 className="header_searchInput" 
                 type="text"/>
-                <SearchIcon
-                className="header_searchIcon" />
+                
                 
             </div>
             
@@ -38,7 +35,7 @@ function Header() {
             <div className="header_nav">
                 <div className="header_option">
                 
-                <Link to="/login" className="header__optionLineTwo"> <PermIdentityIcon /> Login  |</Link>
+                <Link to="/login" className="header__optionLineTwo"> Login  |</Link>
                 </div>
 
             </div>
@@ -47,13 +44,12 @@ function Header() {
               
                 <span className="header__optionLineTwo"></span>
                 
+                Cart
                 
-                <Link to="/cart" className="btn btn-primary">
                     
-                <ShoppingBasketIcon />
+            
 
-                </Link>
-              
+               
               </div>
               </div>
            
