@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-
 import { Link } from "react-router-dom"; 
 
 
@@ -14,7 +13,7 @@ function Footer() {
             <div className="column">
                 <div className="Contact">
                     <h1>Contact</h1>
-                   <p><a href="mailto:fakeEmail@gmail.com?subject=Mail From Soap">Email Us </a>  <EmailIcon /> </p>
+                   <p><a href="mailto:fakeEmail@gmail.com?subject=Mail From Soap">Email Us </a> </p>
                     <p> (555)555-5555  </p>
                 </div>
             </div>
